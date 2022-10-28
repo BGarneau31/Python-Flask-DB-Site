@@ -1,0 +1,63 @@
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* probably change bg to black and make current image into div for just the top section of page */
+body {
+    font-family: "Roboto";
+    text-align: center;
+    background-color: black;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto";
+    font-weight: 800;
+  }
+
+#title-section {
+    padding-top: 50px;
+}
+  .big-heading {
+    font-family: 'Roboto';
+    font-size: 6rem;
+    line-height: 1.5;
+    font-weight: 800;
+   
+  }
+  .title{
+    margin: 100px;
+    /* width: 100%; */
+    padding: 100px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .subtitle-text {
+    font-family: 'Roboto';
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+
+body.workouts {
+    background-image: url('images/gym-home1.jpg');
+    background-size: cover;
+} 
+
+body.login {
+    background-image: url("images/login-weight.jpg");
+    background-size: cover;
+}
+
+body.sign-up {
+    background-image: url("images/login-weight.jpg");
+    background-size: 100%;
+}
+
